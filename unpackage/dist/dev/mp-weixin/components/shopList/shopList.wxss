@@ -1,0 +1,68 @@
+
+page{
+	background:#F5F5F5;
+}
+.shopdetail {
+	width: 100%;
+	height: 64px;
+	display: flex;
+	flex-direction: row;
+	padding: 5px;
+	align-items: center;
+	background:white;
+	margin-bottom:5px;
+}
+.shopImg {
+	width: 140rpx;
+	height: 140rpx;
+	margin-right:20rpx;
+}
+.up {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+}
+.score{
+	width:62rpx;
+	height:44rpx;
+	color:white;
+	background-color: grey;
+	border-radius:6rpx;
+	margin-left:40rpx;
+	text-align:center;
+	line-height:44rpx;
+	font-size:24rpx;
+}
+.txt{
+	margin-left:5px;
+}
+.right{
+	display: flex;
+	flex-direction: column;
+}
+.img{
+	width:13px;
+	height:13px;
+	mix-blend-mode: multiply;
+}
+.imgPlane{
+	width:20px;
+	height:16px;
+	margin-left:132rpx;
+}
+.down{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.shop{
+	margin-left:5px;
+}
+.xiaoliang{
+	color:#999999;
+	font-size:24rpx;
+}
+.juli{
+	font-size:27rpx;
+}
+

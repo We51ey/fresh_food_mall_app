@@ -1,0 +1,65 @@
+
+.content {
+	height: 100%;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	background-color: rgb(235, 235, 235);
+}
+.main {
+	background-color: white;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-bottom: 10rpx;
+}
+.top {
+	font-size: 32rpx;
+	padding: 20rpx 20rpx;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.mid {
+	font-size: 26rpx;
+	padding: 20rpx 20rpx;
+	padding-top: 0;
+}
+.bottom {
+	padding: 20rpx 20rpx;
+	border: 5rpx rgb(235, 235, 235) solid;
+	display: flex;
+	flex-direction: row;
+	font-size: 30rpx;
+	justify-content: space-between;
+}
+.option {
+	font-size: 30rpx;
+	width: 30%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.address_add{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.addressUp {
+	padding: 30rpx 0;
+	background-color: #F2F2F2;
+	border-bottom: 2rpx solid #BFBFBF;
+	text-align: center;
+}
+.address_add_confirm{
+	margin-top: 40rpx;
+	width: 100%;
+	color: white;
+	background-color: rgb(253,108,1);
+	border-radius: 0;
+}
+

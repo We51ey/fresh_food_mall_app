@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "申请成功",
+  "usingComponents": {
+    "orderdetail": "/components/orderdetail/orderdetail",
+    "carddetail": "/components/orderdetail/carddetail"
+  }
+}

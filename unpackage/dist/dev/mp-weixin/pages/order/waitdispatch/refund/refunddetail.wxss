@@ -1,0 +1,41 @@
+
+.first {
+	background-color: white;
+	height: 120px;
+	display: flex;
+	flex-direction: column; /*主轴为y轴 */
+	justify-content: space-between; /*先贴两边再贴边 在平分剩余空间（重要） */
+	margin: 6px;
+}
+.head {}
+.card {
+	display: flex;
+	flex-direction: row; /*主轴为x轴 */
+}
+.left {}
+.box {
+	margin-left: 6px;
+	display: flex;
+	flex-direction: column; /*主轴为y轴 */
+	justify-content: space-between; /*先贴两边再贴边 在平分剩余空间（重要） */
+}
+.box1 {}
+.box2 {
+	font-size: 16px;
+	display: flex;
+	flex-direction: row; /*主轴为x轴 */
+	justify-content: space-between; /*先贴两边再贴边 在平分剩余空间（重要） */
+}
+.content {
+	font-size: 14px;
+	display: flex;
+	flex-direction: column; /*主轴为y轴 */
+	margin: 6px;
+}
+.submitCss {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+

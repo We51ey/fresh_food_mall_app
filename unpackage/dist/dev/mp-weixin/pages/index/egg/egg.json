@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "肉蛋禽类",
+  "usingComponents": {
+    "shop-list": "/components/shopList/shopList"
+  }
+}

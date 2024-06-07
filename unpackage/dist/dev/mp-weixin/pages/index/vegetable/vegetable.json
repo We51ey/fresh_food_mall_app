@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "安心蔬菜",
+  "usingComponents": {
+    "shop-list": "/components/shopList/shopList"
+  }
+}

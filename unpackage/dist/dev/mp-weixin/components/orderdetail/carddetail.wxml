@@ -1,0 +1,1 @@
+<view><van-card vue-id="605b048c-1" price="{{$root.m0}}" title="佑仔食品 新季批发冷冻草莓整颗 批发奶茶商用 水果冰冻草莓" thumb="https://img.alicdn.com/imgextra/i1/2208081554011/O1CN01eJTchZ1fV5MybcpFQ_!!0-item_pic.jpg_430x430q90.jpg" num="{{2}}" data-com-type="wx" bind:__l="__l"></van-card></view>

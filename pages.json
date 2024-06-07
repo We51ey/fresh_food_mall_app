@@ -1,0 +1,416 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+
+
+		
+
+		// 登录页面
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false
+			}
+		},
+		//忘记密码页面
+		{
+			"path": "pages/login/forget",
+			"style": {
+				"navigationBarTitleText": "忘记密码",
+				"enablePullDownRefresh": false
+			}
+		},
+		//注册页面
+		{
+			"path": "pages/login/register",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"enablePullDownRefresh": false
+			}
+
+		},
+
+
+		//个人信息
+		{
+			"path": "pages/tabBar/myself/personinfo/personinfo",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"enablePullDownRefresh": false
+			}
+		},
+
+
+
+		{
+			"path": "pages/tabBar/myself/shouhou/shouhou",
+			"style": {
+				"navigationBarTitleText": "售后订单"
+			}
+		},
+
+		{
+			"path": "pages/tabBar/myself/shouhou/tuikuan/tuikuan_ing",
+			"style": {
+				"navigationBarTitleText": "退款详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/tabBar/myself/shouhou/tuikuan/tuikuan_success",
+			"style": {
+				"navigationBarTitleText": "退款详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/tabBar/myself/shouhou/tuikuan/tuikuan_failure",
+			"style": {
+				"navigationBarTitleText": "退款详情",
+				"enablePullDownRefresh": false
+			}
+		},
+
+
+		{
+			"path": "pages/tabBar/myself/jifen/jifen",
+			"style": {
+				"navigationBarTitleText": "我的积分",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/tabBar/myself/settings/settings",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"enablePullDownRefresh": false
+			}
+
+		},
+
+		{
+			"path": "pages/tabBar/myself/dizhi/dizhi",
+			"style": {
+				"navigationBarTitleText": "我的地址",
+				"enablePullDownRefresh": false
+			}
+
+		},
+
+
+
+		{
+			"path": "pages/tabBar/myself/pinglun/pinglun",
+			"style": {
+				"navigationBarTitleText": "我的评论",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/tabBar/myself/settings/edit_otheraccount/edit_otheraccount",
+			"style": {
+				"navigationBarTitleText": "第三方账号",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/tabBar/myself/shoucang/shoucang",
+			"style": {
+				"navigationBarTitleText": "我的收藏",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+					"path": "pages/tabBar/myself/youhuiquan/youhuiquan",
+					"style": {
+						"navigationBarTitleText": "我的优惠券",
+						"enablePullDownRefresh": false
+					}
+				
+				},
+
+
+		{
+			"path": "pages/tabBar/myself/sysinfo/sysinfo",
+			"style": {
+				"navigationBarTitleText": "系统消息",
+				"enablePullDownRefresh": false
+			}
+
+		},
+
+		{
+			"path": "pages/tabBar/myself/settings/edit_password/edit_password",
+			"style": {
+				"navigationBarTitleText": "修改密码",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/tabBar/myself/settings/edit_phone/edit_phone",
+			"style": {
+				"navigationBarTitleText": "绑定手机",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/tabBar/myself/settings/about/about",
+			"style": {
+				"navigationBarTitleText": "关于我们",
+				"enablePullDownRefresh": false
+			}
+		},
+
+
+
+
+
+
+
+		{
+			"path": "pages/tabBar/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		
+		{
+			"path": "pages/tabBar/nearby/nearby",
+			"style": {
+				"navigationBarTitleText": "附近店铺"
+			}
+		},
+		{
+			"path": "pages/tabBar/order/order",
+			"style": {
+				"navigationBarTitleText": "订单"
+			}
+		}, {
+			"path": "pages/tabBar/myself/myself",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/index/fruit/fruit",
+			"style": {
+				"navigationBarTitleText": "新鲜水果"
+			}
+		},
+		{
+			"path": "pages/index/vegetable/vegetable",
+			"style": {
+				"navigationBarTitleText": "安心蔬菜"
+			}
+		},
+		{
+			"path": "pages/index/milk/milk",
+			"style": {
+				"navigationBarTitleText": "牛奶酸奶"
+			}
+		},
+		{
+			"path": "pages/index/egg/egg",
+			"style": {
+				"navigationBarTitleText": "肉蛋禽类"
+			}
+		},
+		{
+			"path": "pages/index/shopdetail/shopdetail",
+			"style": {
+				"navigationBarTitleText": "店铺详情"
+			}
+		},
+		{
+			"path": "pages/index/goodCar/goodCar",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		},
+		{
+			"path": "pages/index/orders/orders",
+			"style": {
+				"navigationBarTitleText": "生鲜APP"
+			}
+		},
+		{
+			"path": "pages/index/allTypes/allTypes",
+			"style": {
+				"navigationBarTitleText": "所有分类"
+			}
+		},
+		{
+			"path": "pages/index/goodDetail/goodDetail",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		},
+		{
+			"path": "pages/index/Allevaluation/Allevaluation",
+			"style": {
+				"navigationBarTitleText": "全部评价"
+			}
+		},
+		{
+			"path": "pages/index/ensureOrder/ensureOrder",
+			"style": {
+				"navigationBarTitleText": "确认订单"
+			}
+		},
+		{
+			"path": "pages/index/submitOrder/submitOrder",
+			"style": {
+				"navigationBarTitleText": "确认订单"
+			}
+		},
+		{
+			"path": "pages/index/orderstatus/success",
+			"style": {
+				"navigationBarTitleText": "生鲜APP"
+			}
+		},
+		{
+			"path": "pages/index/orderstatus/fail",
+			"style": {
+				"navigationBarTitleText": "生鲜APP"
+			}
+		},
+		{
+			"path": "pages/order/waitpay/paydetail",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/order/waitdispatch/dispatchdetail",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/order/waitreceive/receivedetail",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/order/waitassess/assessdetail",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/order/success/success",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/order/waitreceive/deliverinfo",
+			"style": {
+				"navigationBarTitleText": "配送信息"
+			}
+		},
+		{
+			"path": "pages/order/waitassess/assess",
+			"style": {
+				"navigationBarTitleText": "评价"
+			}
+		},
+		{
+			"path": "pages/order/waitdispatch/refund/refundsuccess",
+			"style": {
+				"navigationBarTitleText": "申请成功"
+			}
+		},
+		{
+			"path": "pages/order/waitdispatch/refund/refunddetail",
+			"style": {
+				"navigationBarTitleText": "申请退款"
+			}
+		}
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"usingComponents": {
+			"van-button": "/wxcomponents/dist/button/index",
+			"van-swipe": "/wxcomponents/dist/swipe-cell/index",
+			"van-icon": "/wxcomponents/dist/icon/index",
+			"van-checkbox": "/wxcomponents/dist/checkbox/index",
+			"van-checkbox-group": "/wxcomponents/dist/checkbox-group/index",
+			"van-collapse": "/wxcomponents/dist/collapse/index",
+			"van-collapse-item": "/wxcomponents/dist/collapse-item/index",
+			"van-search": "/wxcomponents/dist/search/index",
+			"van-row": "/wxcomponents/dist/row/index",
+			"van-col": "/wxcomponents/dist/col/index",
+			"van-grid": "/wxcomponents/dist/grid/index",
+			"van-grid-item": "/wxcomponents/dist/grid-item/index",
+			"van-cell": "/wxcomponents/dist/cell/index",
+			"van-cell-group": "/wxcomponents/dist/cell-group/index",
+			"van-stepper": "/wxcomponents/dist/stepper/index",
+			"van-index-bar": "/wxcomponents/dist/index-bar/index",
+			"van-index-anchor": "/wxcomponents/dist/index-anchor/index",
+			"van-tab": "/wxcomponents/dist/tab/index",
+			"van-tabs": "/wxcomponents/dist/tabs/index",
+			"van-toast": "/wxcomponents/dist/toast/index",
+			"van-popup": "/wxcomponents/dist/popup/index",
+			"van-field": "/wxcomponents/dist/field/index",
+			"van-area": "/wxcomponents/dist/area/index",
+			"van-picker": "/wxcomponents/dist/picker/index",
+			"van-picker-column": "/wxcomponents/dist/picker-column/index",
+			"van-action-sheet": "/wxcomponents/dist/action-sheet/index",
+			"loading": "/wxcomponents/dist/loading/index",
+			"van-calendar": "/wxcomponents/dist/calendar/index",
+
+			"van-dialog": "/wxcomponents/dist/dialog/index",
+			"van-card": "/wxcomponents/dist/card/index",
+			"van-tag": "/wxcomponents/dist/tag/index",
+			"van-divider": "/wxcomponents/dist/divider/index",
+			"van-config-provider": "/wxcomponents/dist/config-provider/index",
+			"van-rate": "/wxcomponents/dist/rate/index",
+			"van-overlay": "/wxcomponents/dist/overlay/index",
+			"van-circle": "/wxcomponents/dist/circle/index",
+			"van-image":"/wxcomponents/dist/image/index"
+			
+		}
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [{
+				"pagePath": "pages/tabBar/index/index",
+				"iconPath": "static/index.png",
+				"selectedIconPath": "static/index_ed.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/tabBar/nearby/nearby",
+				"iconPath": "static/nearby.png",
+				"selectedIconPath": "static/near_ed.png",
+				"text": "附近"
+			}, {
+				"pagePath": "pages/tabBar/order/order",
+				"iconPath": "static/order.png",
+				"selectedIconPath": "static/order_ed.png",
+				"text": "订单"
+			}, {
+				"pagePath": "pages/tabBar/myself/myself",
+				"iconPath": "static/myself.png",
+				"selectedIconPath": "static/myself_ed.png",
+				"text": "我的"
+			}
+		]
+	}
+}

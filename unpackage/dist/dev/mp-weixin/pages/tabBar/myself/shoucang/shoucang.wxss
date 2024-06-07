@@ -1,0 +1,131 @@
+
+.content {
+	font-size: 32rpx;
+	height: 100%;
+	margin-bottom: 20rpx;
+	background-color: rgb(235, 235, 235);
+}
+.detail {
+	padding-left: 20rpx;
+	background-color: white;
+	margin-bottom: 10rpx;
+}
+.distance {
+	margin-right: 10rpx;
+}
+.show_checkbox {
+	width: 120rpx;
+	/* padding: 20rpx; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	transition: width 0.3s;
+}
+.hide_left {
+	width: 0;
+	/* padding: 20rpx; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	transition: width 0.3s;
+}
+.show_enter_shop_button {
+	width: 120rpx;
+	margin-left: 20rpx;
+	margin-right: 20rpx;
+	background-color: white;
+	font-size: 24rpx;
+	transition: width 0.3s;
+}
+.hide_right {
+	width: 0;
+	margin-left: 20rpx;
+	border-radius: 20rpx;
+	background-color: white;
+	font-size: 24rpx;
+	transition: width 0.3s;
+}
+.top {
+	padding: 20rpx 20rpx;
+	border-bottom: 3rpx rgb(235, 235, 235) solid;
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.shop {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.left {
+	padding: 20rpx;
+	padding-left: 0;
+	height: 100%;
+}
+.right {
+	width: 100%;
+	padding: 20rpx 5rpx;
+	padding-right: 10rpx;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.right_top {
+	padding-top: 10rpx;
+	display: flex;
+	flex-direction: row;
+}
+.shop_grade {
+	margin-left: 40rpx;
+}
+.right_bottom {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.right_bottom_left {
+	font-size: 30rpx;
+	color: rgb(153, 153, 153);
+}
+.right_bottom_right {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	text-align: center;
+}
+.enter_shop_button {
+	width: 120rpx;
+	margin-left: 20rpx;
+	border-radius: 20rpx;
+	border: 2rpx rgb(235, 235, 235) solid;
+	background-color: white;
+	font-size: 24rpx;
+	transition: width 0.3s;
+}
+.popup_show {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	text-align: center;
+	align-items: center;
+}
+.btn_delete {
+	background-color: rgb(153, 153, 153);
+	border-radius: 0;
+	margin: 0;
+	width: 30%;
+	font-size: 34rpx;
+	color: white;
+}
+.popup_checkbox {
+	padding: 0 20rpx;
+	font-size: 34rpx;
+}
+button::after {
+	border: none;
+}
+

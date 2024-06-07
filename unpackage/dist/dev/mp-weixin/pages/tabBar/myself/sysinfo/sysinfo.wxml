@@ -1,0 +1,1 @@
+<view class="content"><block wx:for="{{system_info}}" wx:for-item="item" wx:for-index="__i0__"><view class="info"><view class="detail">{{item.detail}}</view><view class="date">{{item.date}}</view></view></block></view>

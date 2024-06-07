@@ -1,0 +1,48 @@
+
+.upBox{
+	width:100%;
+	text-align: center;
+	font-size:40rpx;
+}
+.score{
+	font-size:79rpx;
+}
+.mark{
+	width:13px;
+	height:13px;
+	mix-blend-mode: multiply;
+}
+.goodScore{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.logicScore{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.itemE{
+	display: flex;
+	flex-direction: row;
+	border-top:3rpx solid #cccccc;
+	border-bottom:3rpx solid #cccccc;
+	align-items: center;
+}
+.imgPeople{
+	width:50rpx;
+	height:50rpx;
+	margin-right:30rpx;
+}
+.nickname{
+	display: flex;
+	flex-direction: column;
+}
+.txt1{
+	margin-bottom:10rpx;
+}
+.txt2{
+	font-size:30rpx;
+	color:#cccccc;
+}
+

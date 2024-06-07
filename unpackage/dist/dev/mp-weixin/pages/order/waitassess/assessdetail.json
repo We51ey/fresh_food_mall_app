@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "订单详情",
+  "usingComponents": {
+    "orderdetail": "/components/orderdetail/orderdetail",
+    "addressdetail": "/components/orderdetail/addressdetail",
+    "carddetail": "/components/orderdetail/carddetail"
+  }
+}

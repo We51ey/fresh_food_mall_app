@@ -1,0 +1,22 @@
+
+swiper {
+	height: 200rpx;
+}
+.coupons {
+	height: 200rpx;
+	width: 430rpx;
+	display: inline-block;
+}
+scroll-view{
+	white-space:nowrap;
+	height:200rpx;
+	width:750rpx;
+	overflow: scroll;
+}
+.sc{
+	display: inline-block;
+}
+.blank{
+	overflow: scroll;
+}
+

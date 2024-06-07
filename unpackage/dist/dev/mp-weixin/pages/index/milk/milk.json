@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "牛奶酸奶",
+  "usingComponents": {
+    "shop-list": "/components/shopList/shopList"
+  }
+}

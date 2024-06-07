@@ -1,0 +1,88 @@
+
+.content {
+	height: 100%;
+}
+.top-icon {
+	margin: 0 3%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.user-info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	margin: 20rpx 20%;
+	color: rgb(102, 102, 102);
+}
+.user-tip {
+	font-size: 28rpx;
+	padding: 10rpx 0;
+}
+.sign-in {
+	margin-top: 20rpx;
+	color: aliceblue;
+	font-size: 30rpx;
+	border-radius: 30px;
+	width: 200rpx;
+	background-image: linear-gradient(to right, rgb(255, 139, 36), rgb(254, 80, 5));
+}
+.sign-in-end {
+	margin-top: 20rpx;
+	color: aliceblue;
+	font-size: 30rpx;
+	border-radius: 30px;
+	width: 200rpx;
+	background-image: linear-gradient(to right, rgb(152, 152, 152), rgb(102, 102, 102));
+}
+.grid-box {
+	background-color: rgb(235, 235, 235);
+}
+.grid {
+	padding-bottom: 20rpx;
+}
+.footer-tip {
+	font-size: 28rpx;
+}
+.overlay {
+	position: absolute;
+	background-color: rgba(255, 255, 255, 1);
+	width: 500rpx;
+	height: 500rpx;
+	text-align: center;
+	left: 50%; /*起始是在body中，横向距左50%的位置 */
+	top: 50%; /*起始是在body中，纵向距上50%的位置，这个点相当于body的中心点，div的左上角的定位 */
+	-webkit-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%); /*水平、垂直都居中,也可以写成下面的方式 */
+	z-index: 2;
+	border-radius: 15px;
+	color: black;
+	font-size: 40rpx;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.success{
+	padding: 30rpx 0;
+}
+.jifen {
+	font-size: 60rpx;
+	padding-top: 30rpx;
+}
+.overlay_tip {
+	padding: 30rpx 60rpx;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.btn_confirm {
+	color: aliceblue;
+	font-size: 40rpx;
+	border-radius: 0 0 15px 15px;
+	width: 100%;
+	text-align: center;
+	background-image: linear-gradient(to right, rgb(255, 139, 36), rgb(254, 80, 5));
+}
+

@@ -1,0 +1,29 @@
+
+.content{
+	display: flex;
+	font-size:16px;
+	flex-direction: column;
+	justify-content:center;/*主轴对齐 */
+	grid-row-gap: 2rem;/*行间距 */
+	margin-left:25px;
+	margin-top:25px;
+}
+.box1{
+	flex-direction: column;
+	display: flex;
+	grid-row-gap: 1rem;/*行间距 */
+}
+.box2{
+	flex-direction: column;
+	display: flex;
+	grid-row-gap: 1rem;/*行间距 */
+}
+.box3{
+	flex-direction: column;
+	display: flex;
+	grid-row-gap: 1rem;/*行间距 */
+}
+.title{
+	font-weight: bold;
+}
+

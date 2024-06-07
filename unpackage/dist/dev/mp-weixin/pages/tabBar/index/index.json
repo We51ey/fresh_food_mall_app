@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "carousel": "/components/carousel/carousel",
+    "youhuiquan": "/components/youhuiquan/youhuiquan",
+    "youhuiquan-txt": "/components/txt/youhuiquan"
+  }
+}

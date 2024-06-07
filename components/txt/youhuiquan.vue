@@ -1,0 +1,24 @@
+<template>
+	<view class="txtBox"><text>{{txt}}</text></view>
+</template>
+
+<script>
+	export default{
+		props:{
+			txt:{
+				type:String,
+				default:true
+			}
+		}
+	}
+</script>
+
+<style>
+	.txtBox{
+		width:100%;
+		height:87rpx;
+		font-size:33rpx;
+		text-align:center;
+		line-height:87rpx;
+	}
+</style>

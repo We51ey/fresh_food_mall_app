@@ -1,0 +1,17 @@
+
+page {}
+.bc_image {
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+}
+.success_image {
+	width: 300rpx;
+	height: 400rpx;
+	mix-blend-mode: multiply;
+	margin-left: 250rpx;
+	margin-top: 100rpx;
+}
+

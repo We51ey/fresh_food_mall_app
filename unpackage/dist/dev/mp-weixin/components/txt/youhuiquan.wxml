@@ -1,0 +1,1 @@
+<view class="txtBox"><text>{{txt}}</text></view>

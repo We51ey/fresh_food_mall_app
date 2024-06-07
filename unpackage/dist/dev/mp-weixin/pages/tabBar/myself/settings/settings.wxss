@@ -1,0 +1,17 @@
+
+.content {
+	height: 100%;
+	align-items: center;
+	/* text-align: center; */
+	justify-content: center;
+}
+.wrapper {
+	border-radius: 20rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 40rpx 100rpx;
+	background-color: rgba(0, 0, 0, 0.6);
+	color: white;
+}
+

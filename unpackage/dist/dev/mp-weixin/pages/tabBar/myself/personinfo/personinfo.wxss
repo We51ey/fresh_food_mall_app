@@ -1,0 +1,41 @@
+
+.content {
+	height: 100%;
+	background-color: rgb(235, 235, 235);
+}
+.cell-box {
+	margin: 20rpx 0;
+}
+.btn_save {
+	margin-top: 100rpx;
+	color: aliceblue;
+	font-size: 40rpx;
+	border-radius: 30px;
+	width: 80%;
+	background-image: linear-gradient(to right, rgb(255, 139, 36), rgb(254, 80, 5));
+	position: fixed;
+	left: 20px;
+	right: 20px;
+	bottom: 10%;
+}
+.overlay {
+	position: absolute;
+	background-color: rgb(41, 41, 41, 0.8);
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	left: 50%; /*起始是在body中，横向距左50%的位置 */
+	top: 50%; /*起始是在body中，纵向距上50%的位置，这个点相当于body的中心点，div的左上角的定位 */
+	-webkit-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%); /*水平、垂直都居中,也可以写成下面的方式 */
+	border-radius: 20px;
+	color: white;
+	font-size: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.overlay_tip{
+	padding: 10rpx 0;
+}
+

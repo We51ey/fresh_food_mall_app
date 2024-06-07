@@ -1,0 +1,30 @@
+
+.content {
+	height: 100%;
+	margin: 0 20rpx;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* text-align: center; */
+	justify-content: flex-start;
+}
+.text-area {
+	margin: 20rpx 0;
+}
+.title {
+	padding: 40rpx 0;
+	font-size: 40rpx;
+	font-weight: bold;
+}
+.param {
+	padding: 20rpx 0;
+	display: block;
+	text-indent: 58rpx;
+}
+.param_1 {
+	padding: 40rpx 0;
+}
+.param_title {
+	color: rgb(255, 153, 0);
+}
+
